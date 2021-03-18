@@ -1,0 +1,111 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$qwrokZg0NexV$DEJSWfwXIhGcjdzgofhtpGjw6Gg5bO/7nW5HhYGYBcM=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-02-22T20:13:53.062Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$216000$5r6qpt5XoTAp$Luk0obBttTmkbQ6Y783Iu6jFNYt77J00vziOLy6IsyY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "user",
+            "first_name": "",
+            "last_name": "",
+            "email": "user",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2021-02-24T20:02:00.969Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "authentication.additionaluserinformation",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "role": "ADMIN",
+            "socket_id": "/user/1/",
+            "dashboard": []
+        }
+    },
+    {
+        "model": "authentication.additionaluserinformation",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "role": "USER",
+            "socket_id": "/user/2/",
+            "dashboard": []
+        }
+    },
+    {
+        "model": "core_application.setting",
+        "pk": 1,
+        "fields": {
+            "deadline": "2021-12-31",
+            "author": 1,
+            "required_users": [
+                2
+            ],
+            "categorys": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "core_application.Category",
+        "pk": 1,
+        "fields": {
+            "category_name": "Category"
+        }
+    },
+    {
+        "model": "core_application.Category",
+        "pk": 2,
+        "fields": {
+            "category_name": "Softwareentwicklung",
+            "parent": 1
+        }
+    },
+    {
+        "model": "core_application.Category",
+        "pk": 3,
+        "fields": {
+            "category_name": "Design",
+            "parent": 1
+        }
+    },
+    {
+        "model": "core_application.Category",
+        "pk": 4,
+        "fields": {
+            "category_name": "Java",
+            "parent": 2
+        }
+    },
+    {
+        "model": "core_application.Category",
+        "pk": 5,
+        "fields": {
+            "category_name": "Python",
+            "parent": 2
+        }
+    }
+]

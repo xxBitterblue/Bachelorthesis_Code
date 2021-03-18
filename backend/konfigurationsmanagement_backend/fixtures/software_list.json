@@ -1,0 +1,6167 @@
+[
+    {
+        "model": "software.software",
+        "pk": 1,
+        "fields": {
+            "name": "sqlite",
+            "version": "2.8.17-15",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2,
+        "fields": {
+            "name": "python2.7",
+            "version": "2.7.16-2+deb10u1",
+            "type": "software",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3,
+        "fields": {
+            "name": "python3",
+            "version": "3.7.3-1",
+            "type": "software",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4,
+        "fields": {
+            "name": "sqlite3",
+            "version": "3.27.2-3+deb10u1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5,
+        "fields": {
+            "name": "postgresql",
+            "version": "11+200+deb10u4",
+            "type": "database",
+            "dependency_software": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6,
+        "fields": {
+            "name": "postgresql-11",
+            "version": "11.10-0+deb10u1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7,
+        "fields": {
+            "name": "npm",
+            "version": "5.8.0+ds6-4+deb10u2",
+            "type": "web",
+            "dependency_software": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8,
+        "fields": {
+            "name": "nodejs",
+            "version": "0.23.1~dfsg-1~deb10u1",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9,
+        "fields": {
+            "name": "curl",
+            "version": "7.64.0-4+deb10u1",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 10,
+        "fields": {
+            "name": "0ad",
+            "version": "0.0.23.1-2",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 10,
+        "fields": {
+            "name": "0ad",
+            "version": "0.0.23.1-2",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 11,
+        "fields": {
+            "name": "0ad-data",
+            "version": "0.0.23.1-1",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12,
+        "fields": {
+            "name": "0xffff",
+            "version": "0.8-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13,
+        "fields": {
+            "name": "2048-qt",
+            "version": "0.1.6-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14,
+        "fields": {
+            "name": "2ping",
+            "version": "4.3-1",
+            "type": "net",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15,
+        "fields": {
+            "name": "2vcard",
+            "version": "0.6-1",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16,
+        "fields": {
+            "name": "3270font",
+            "version": "2.0.0-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 17,
+        "fields": {
+            "name": "389-ds-base",
+            "version": "1.4.0.21-1",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18,
+        "fields": {
+            "name": "3dchess",
+            "version": "0.8.1-20",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19,
+        "fields": {
+            "name": "3depict",
+            "version": "0.0.21-1",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 20,
+        "fields": {
+            "name": "4digits",
+            "version": "1.1.4-1",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 21,
+        "fields": {
+            "name": "4g8",
+            "version": "1.0-3.2",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 22,
+        "fields": {
+            "name": "4pane",
+            "version": "5.0-2",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 23,
+        "fields": {
+            "name": "4store",
+            "version": "1.1.6+20151109-2",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 24,
+        "fields": {
+            "name": "4ti2",
+            "version": "1.6.9+ds-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 25,
+        "fields": {
+            "name": "6tunnel",
+            "version": "1:0.12-1",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26,
+        "fields": {
+            "name": "7kaa",
+            "version": "2.15.1+dfsg-1",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 27,
+        "fields": {
+            "name": "9base",
+            "version": "1:6-7",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28,
+        "fields": {
+            "name": "9menu",
+            "version": "1.9-2",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 29,
+        "fields": {
+            "name": "9mount",
+            "version": "1.3+hg20170412-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 30,
+        "fields": {
+            "name": "9wm",
+            "version": "1.4.1-1",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 31,
+        "fields": {
+            "name": "a2jmidid",
+            "version": "8~dfsg0-3",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 32,
+        "fields": {
+            "name": "a2ps",
+            "version": "1:4.14-4",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 33,
+        "fields": {
+            "name": "a52dec",
+            "version": "0.7.4-19",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 34,
+        "fields": {
+            "name": "a56",
+            "version": "1.3+dfsg-9",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 35,
+        "fields": {
+            "name": "a7xpg",
+            "version": "0.11.dfsg1-10",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 36,
+        "fields": {
+            "name": "aa3d",
+            "version": "1.0-8",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 37,
+        "fields": {
+            "name": "aafigure",
+            "version": "0.5-7",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 38,
+        "fields": {
+            "name": "aalib",
+            "version": "1.4p5-46",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 39,
+        "fields": {
+            "name": "aaphoto",
+            "version": "0.45-1",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 40,
+        "fields": {
+            "name": "abacas",
+            "version": "1.3.1-5",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 41,
+        "fields": {
+            "name": "abcde",
+            "version": "2.9.3-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 42,
+        "fields": {
+            "name": "abci",
+            "version": "0.0~git20170124.0.f94ae5e-2",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 43,
+        "fields": {
+            "name": "abcm2ps",
+            "version": "8.14.2-0.2",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 44,
+        "fields": {
+            "name": "abcmidi",
+            "version": "20190101-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 45,
+        "fields": {
+            "name": "abe",
+            "version": "1.1+dfsg-3",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 46,
+        "fields": {
+            "name": "abego-treelayout",
+            "version": "1.0.3-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 47,
+        "fields": {
+            "name": "abgate",
+            "version": "1.1.9-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 48,
+        "fields": {
+            "name": "abi-compliance-checker",
+            "version": "2.3-0.2",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 49,
+        "fields": {
+            "name": "abi-dumper",
+            "version": "1.1-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 50,
+        "fields": {
+            "name": "abi-monitor",
+            "version": "1.12-2",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 51,
+        "fields": {
+            "name": "abi-tracker",
+            "version": "1.11-1",
+            "type": "misc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 52,
+        "fields": {
+            "name": "abicheck",
+            "version": "1.2-5",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 53,
+        "fields": {
+            "name": "abind",
+            "version": "1.4-5-1.2",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 54,
+        "fields": {
+            "name": "abinit",
+            "version": "8.8.4-2",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 55,
+        "fields": {
+            "name": "abiword",
+            "version": "3.0.2-8",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 57,
+        "fields": {
+            "name": "abntex",
+            "version": "0.9~beta2-5.1",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 58,
+        "fields": {
+            "name": "abook",
+            "version": "0.6.1-1",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 59,
+        "fields": {
+            "name": "abootimg",
+            "version": "0.6-1",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 60,
+        "fields": {
+            "name": "abr2gbr",
+            "version": "1:1.0.2-2",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 64,
+        "fields": {
+            "name": "accerciser",
+            "version": "3.22.0-7",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 65,
+        "fields": {
+            "name": "access-modifier-checker",
+            "version": "1.16-1",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 67,
+        "fields": {
+            "name": "accountsservice",
+            "version": "0.6.45-2",
+            "type": "admin",
+            "dependency_software": [
+                5446
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 68,
+        "fields": {
+            "name": "acct",
+            "version": "6.6.4-2",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 69,
+        "fields": {
+            "name": "ace",
+            "version": "6.4.5+dfsg-1",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 71,
+        "fields": {
+            "name": "ace-of-penguins",
+            "version": "1.5~rc2-3",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 74,
+        "fields": {
+            "name": "acedb",
+            "version": "4.9.39+dfsg.02-4",
+            "type": "science",
+            "dependency_software": [
+                2378
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 76,
+        "fields": {
+            "name": "aces3",
+            "version": "3.0.8-6",
+            "type": "science",
+            "dependency_software": [
+                2378
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 77,
+        "fields": {
+            "name": "acetoneiso",
+            "version": "2.4-3",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 78,
+        "fields": {
+            "name": "acfax",
+            "version": "981011-17",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 79,
+        "fields": {
+            "name": "acheck",
+            "version": "0.5.7",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 80,
+        "fields": {
+            "name": "acheck-rules",
+            "version": "0.3.3",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 81,
+        "fields": {
+            "name": "achilles",
+            "version": "2-9",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 83,
+        "fields": {
+            "name": "acl",
+            "version": "2.2.53-2",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 84,
+        "fields": {
+            "name": "acl",
+            "version": "2.2.53-4",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 85,
+        "fields": {
+            "name": "acl2",
+            "version": "8.0dfsg-1",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 86,
+        "fields": {
+            "name": "aclock.app",
+            "version": "0.4.0-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 87,
+        "fields": {
+            "name": "acm",
+            "version": "5.0-29.2",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 91,
+        "fields": {
+            "name": "aconnectgui",
+            "version": "0.9.0rc2-1-10",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 93,
+        "fields": {
+            "name": "acorn-fdisk",
+            "version": "3.0.6-10",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 94,
+        "fields": {
+            "name": "acoustid-fingerprinter",
+            "version": "0.6-6",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 95,
+        "fields": {
+            "name": "acpi",
+            "version": "1.7-1.1",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 97,
+        "fields": {
+            "name": "acpi-support",
+            "version": "0.142-8",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 98,
+        "fields": {
+            "name": "acpica-unix",
+            "version": "20181213-1",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 99,
+        "fields": {
+            "name": "acpid",
+            "version": "1:2.0.31-1",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 100,
+        "fields": {
+            "name": "acpitail",
+            "version": "0.1-4",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 101,
+        "fields": {
+            "name": "acpitool",
+            "version": "0.5.1-4",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 103,
+        "fields": {
+            "name": "acsccid",
+            "version": "1.1.6-1",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 104,
+        "fields": {
+            "name": "actdiag",
+            "version": "0.5.4+dfsg-1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 106,
+        "fields": {
+            "name": "activemq",
+            "version": "5.15.8-2",
+            "type": "java",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 107,
+        "fields": {
+            "name": "activemq-activeio",
+            "version": "3.1.4-3",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 108,
+        "fields": {
+            "name": "activemq-protobuf",
+            "version": "1.1-6",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 109,
+        "fields": {
+            "name": "activity-log-manager",
+            "version": "0.8.0-1.2",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 111,
+        "fields": {
+            "name": "ada-reference-manual",
+            "version": "1:2012.3-2",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 112,
+        "fields": {
+            "name": "adabrowse",
+            "version": "4.0.3-10",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 113,
+        "fields": {
+            "name": "adacgi",
+            "version": "1.6-22",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 114,
+        "fields": {
+            "name": "adacontrol",
+            "version": "1.20r7-3",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 118,
+        "fields": {
+            "name": "adasockets",
+            "version": "1.11.1-2",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 120,
+        "fields": {
+            "name": "addresses-for-gnustep",
+            "version": "0.4.8-3",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 121,
+        "fields": {
+            "name": "adduser",
+            "version": "3.118",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 123,
+        "fields": {
+            "name": "adios",
+            "version": "1.13.1-16",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 124,
+        "fields": {
+            "name": "adjtimex",
+            "version": "1.29-10",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 126,
+        "fields": {
+            "name": "admesh",
+            "version": "0.98.3-3",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 127,
+        "fields": {
+            "name": "adminer",
+            "version": "4.7.1-1",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 129,
+        "fields": {
+            "name": "adns",
+            "version": "1.5.0~rc1-1.1",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 130,
+        "fields": {
+            "name": "adolc",
+            "version": "2.6.3-2",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 131,
+        "fields": {
+            "name": "adonthell",
+            "version": "0.3.8-1",
+            "type": "games",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 132,
+        "fields": {
+            "name": "adonthell-data",
+            "version": "0.3.8-1",
+            "type": "games",
+            "dependency_software": [
+                131
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 133,
+        "fields": {
+            "name": "adplay",
+            "version": "1.7-4",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 134,
+        "fields": {
+            "name": "adplug",
+            "version": "2.2.1+dfsg3-1",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 136,
+        "fields": {
+            "name": "adun.app",
+            "version": "0.81-13",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 138,
+        "fields": {
+            "name": "advancecomp",
+            "version": "2.1-2.1",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 139,
+        "fields": {
+            "name": "advi",
+            "version": "1.10.2-4",
+            "type": "tex",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 143,
+        "fields": {
+            "name": "aegisub",
+            "version": "3.2.2+dfsg-4+deb10u1",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 144,
+        "fields": {
+            "name": "aeolus",
+            "version": "0.9.5-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 145,
+        "fields": {
+            "name": "aephea",
+            "version": "12-248-3",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 146,
+        "fields": {
+            "name": "aes2501-wy",
+            "version": "0.1-5",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 147,
+        "fields": {
+            "name": "aesfix",
+            "version": "1.0.1-6",
+            "type": "utils",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 149,
+        "fields": {
+            "name": "aeskulap",
+            "version": "0.2.2-beta2+git20180219.8787e95-2",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 153,
+        "fields": {
+            "name": "aewan",
+            "version": "1.0.01-4.1",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 154,
+        "fields": {
+            "name": "aewm",
+            "version": "1.3.12-3",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 155,
+        "fields": {
+            "name": "aewm++",
+            "version": "1.1.2-5.1",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 156,
+        "fields": {
+            "name": "aewm++-goodies",
+            "version": "1.0-10",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 160,
+        "fields": {
+            "name": "afflib",
+            "version": "3.7.17-5",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 163,
+        "fields": {
+            "name": "afnix",
+            "version": "2.8.1-2",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 164,
+        "fields": {
+            "name": "aft",
+            "version": "2:5.098-4",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 166,
+        "fields": {
+            "name": "afterstep",
+            "version": "2.2.12-12",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 168,
+        "fields": {
+            "name": "agda",
+            "version": "2.5.4.1-3",
+            "type": "haskell",
+            "dependency_software": [
+                228,
+                2292,
+                5135,
+                7065
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 169,
+        "fields": {
+            "name": "agda-stdlib",
+            "version": "0.17-1",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 171,
+        "fields": {
+            "name": "agenda.app",
+            "version": "0.44-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 172,
+        "fields": {
+            "name": "agg",
+            "version": "1:2.6.0-r132+dfsg1-3",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 174,
+        "fields": {
+            "name": "aggregate",
+            "version": "1.6-7",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 176,
+        "fields": {
+            "name": "aghermann",
+            "version": "1.1.2-2",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 177,
+        "fields": {
+            "name": "aglfn",
+            "version": "1.7-3",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 178,
+        "fields": {
+            "name": "agtl",
+            "version": "0.8.0.3-1.1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 180,
+        "fields": {
+            "name": "ahcpd",
+            "version": "0.53-2",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 181,
+        "fields": {
+            "name": "ahven",
+            "version": "2.7-2",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 182,
+        "fields": {
+            "name": "aide",
+            "version": "0.16.1-1",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 183,
+        "fields": {
+            "name": "aiksaurus",
+            "version": "1.2.1+dev-0.12-6.3",
+            "type": "libs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 196,
+        "fields": {
+            "name": "aircrack-ng",
+            "version": "1:1.5.2-3",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 199,
+        "fields": {
+            "name": "airport-utils",
+            "version": "2-6",
+            "type": "net",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 205,
+        "fields": {
+            "name": "aj-snapshot",
+            "version": "0.9.8-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 206,
+        "fields": {
+            "name": "ajaxterm",
+            "version": "0.10-13",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 218,
+        "fields": {
+            "name": "akuma",
+            "version": "1.10-2",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 224,
+        "fields": {
+            "name": "aldo",
+            "version": "0.7.7-1",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 225,
+        "fields": {
+            "name": "ale",
+            "version": "0.9.0.3-3",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 226,
+        "fields": {
+            "name": "alembic",
+            "version": "1.0.0-3",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 227,
+        "fields": {
+            "name": "alevt",
+            "version": "1:1.6.2-5.1",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 228,
+        "fields": {
+            "name": "alex",
+            "version": "3.2.4-4",
+            "type": "haskell",
+            "dependency_software": [
+                228,
+                5135,
+                7065
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 234,
+        "fields": {
+            "name": "algol68g",
+            "version": "2.8.4-1",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 235,
+        "fields": {
+            "name": "alice",
+            "version": "0.19-2",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 236,
+        "fields": {
+            "name": "alien",
+            "version": "8.95",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 237,
+        "fields": {
+            "name": "alien-hunter",
+            "version": "1.7-7",
+            "type": "science",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 239,
+        "fields": {
+            "name": "aliki",
+            "version": "0.3.0-3",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 241,
+        "fields": {
+            "name": "all-knowing-dns",
+            "version": "1.7-2",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 242,
+        "fields": {
+            "name": "allegro4.4",
+            "version": "2:4.4.2-13",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 244,
+        "fields": {
+            "name": "alliance",
+            "version": "5.1.1-3",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 256,
+        "fields": {
+            "name": "almanah",
+            "version": "0.11.1-2",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 259,
+        "fields": {
+            "name": "alpine",
+            "version": "2.21+dfsg1-1.1",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 260,
+        "fields": {
+            "name": "alqalam",
+            "version": "0.2-8",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 262,
+        "fields": {
+            "name": "alsa-oss",
+            "version": "1.1.8-1",
+            "type": "sound",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 270,
+        "fields": {
+            "name": "alt-ergo",
+            "version": "2.0.0-3",
+            "type": "math",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 272,
+        "fields": {
+            "name": "altermime",
+            "version": "0.3.10-9",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 273,
+        "fields": {
+            "name": "altos",
+            "version": "1.9-3",
+            "type": "electronics",
+            "dependency_software": [
+                1464
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 274,
+        "fields": {
+            "name": "altree",
+            "version": "1.3.1-7",
+            "type": "science",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 279,
+        "fields": {
+            "name": "amavisd-milter",
+            "version": "1.5.0-5",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 280,
+        "fields": {
+            "name": "amavisd-new",
+            "version": "1:2.11.0-6.1",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 284,
+        "fields": {
+            "name": "amide",
+            "version": "1.0.5-12",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 286,
+        "fields": {
+            "name": "amiga-fdisk",
+            "version": "0.04-15",
+            "type": "admin",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 287,
+        "fields": {
+            "name": "amispammer",
+            "version": "3.3-2",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 289,
+        "fields": {
+            "name": "amora-server",
+            "version": "1.2~svn+git2015.04.25-1",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 300,
+        "fields": {
+            "name": "amtterm",
+            "version": "1.4-2",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 301,
+        "fields": {
+            "name": "amule",
+            "version": "1:2.3.2-5",
+            "type": "net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 306,
+        "fields": {
+            "name": "analog",
+            "version": "2:6.0-22",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 307,
+        "fields": {
+            "name": "anarchism",
+            "version": "15.1-9",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 338,
+        "fields": {
+            "name": "animal-sniffer",
+            "version": "1.16-1",
+            "type": "java",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 341,
+        "fields": {
+            "name": "anjuta",
+            "version": "2:3.28.0-5",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 342,
+        "fields": {
+            "name": "anjuta-extras",
+            "version": "3.26.0-5",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 343,
+        "fields": {
+            "name": "anki",
+            "version": "2.1.8+dfsg-1",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 345,
+        "fields": {
+            "name": "anna",
+            "version": "1.71",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 346,
+        "fields": {
+            "name": "annotation-indexer",
+            "version": "1.12-1",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 356,
+        "fields": {
+            "name": "ant",
+            "version": "1.10.5-2",
+            "type": "java",
+            "dependency_software": [
+                364
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 357,
+        "fields": {
+            "name": "ant-contrib",
+            "version": "1.0~b3+svn177-10",
+            "type": "java",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 358,
+        "fields": {
+            "name": "antelope",
+            "version": "3.5.1-4",
+            "type": "java",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 359,
+        "fields": {
+            "name": "antennavis",
+            "version": "0.3.1-4",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 363,
+        "fields": {
+            "name": "antiword",
+            "version": "0.37-14",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 364,
+        "fields": {
+            "name": "antlr",
+            "version": "2.7.7+dfsg-9.2",
+            "type": "devel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 365,
+        "fields": {
+            "name": "antlr-maven-plugin",
+            "version": "2.2-4",
+            "type": "java",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 376,
+        "fields": {
+            "name": "aoeui",
+            "version": "1.7+20160302.git4e5dee9-1",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 390,
+        "fields": {
+            "name": "apache-upload-progress-module",
+            "version": "0.2-2",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 391,
+        "fields": {
+            "name": "apache2",
+            "version": "2.4.38-3+deb10u4",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 396,
+        "fields": {
+            "name": "apcalc",
+            "version": "2.12.7.2-2",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 398,
+        "fields": {
+            "name": "apel",
+            "version": "10.8+0.20120427-19",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 477,
+        "fields": {
+            "name": "apgdiff",
+            "version": "2.5.0~alpha.2-75-gcaaaed9-4",
+            "type": "database",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 480,
+        "fields": {
+            "name": "apipkg",
+            "version": "1.5-2",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 485,
+        "fields": {
+            "name": "aplus-fsf",
+            "version": "4.22.1-10",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 486,
+        "fields": {
+            "name": "apng2gif",
+            "version": "1.8-0.1",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 494,
+        "fields": {
+            "name": "appconfig",
+            "version": "1.71-2",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 496,
+        "fields": {
+            "name": "apper",
+            "version": "1.0.0-2",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 499,
+        "fields": {
+            "name": "appmenu-qt",
+            "version": "0.2.6-2",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 508,
+        "fields": {
+            "name": "apron",
+            "version": "0.9.10-9",
+            "type": "libdevel",
+            "dependency_software": [
+                1506,
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 509,
+        "fields": {
+            "name": "aprsdigi",
+            "version": "3.10.0-2",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 512,
+        "fields": {
+            "name": "apsfilter",
+            "version": "7.2.6-2",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 521,
+        "fields": {
+            "name": "apt-dpkg-ref",
+            "version": "5.3.1+nmu2",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 544,
+        "fields": {
+            "name": "apvlv",
+            "version": "0.1.5+dfsg-3",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 545,
+        "fields": {
+            "name": "apwal",
+            "version": "0.4.5-1.1",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 546,
+        "fields": {
+            "name": "aqemu",
+            "version": "0.9.2-2.3",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 547,
+        "fields": {
+            "name": "aqsis",
+            "version": "1.8.2-11",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 550,
+        "fields": {
+            "name": "arandr",
+            "version": "0.1.9-2",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 551,
+        "fields": {
+            "name": "aranym",
+            "version": "1.0.2-2.2",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 554,
+        "fields": {
+            "name": "arbtt",
+            "version": "0.10.1-1",
+            "type": "haskell",
+            "dependency_software": [
+                5135
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 559,
+        "fields": {
+            "name": "arcboot-installer",
+            "version": "1.38",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 575,
+        "fields": {
+            "name": "archivemail",
+            "version": "0.9.0-1.1",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 578,
+        "fields": {
+            "name": "archmbox",
+            "version": "4.10.0-2",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 584,
+        "fields": {
+            "name": "arduino",
+            "version": "2:1.0.5+dfsg2-4.1",
+            "type": "electronics",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 586,
+        "fields": {
+            "name": "arduino-mk",
+            "version": "1.5.2-1",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 597,
+        "fields": {
+            "name": "argvalidate",
+            "version": "0.9.0-2",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 598,
+        "fields": {
+            "name": "argyll",
+            "version": "2.0.1+repack-1",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 601,
+        "fields": {
+            "name": "aribas",
+            "version": "1.64-6",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 613,
+        "fields": {
+            "name": "arpack",
+            "version": "3.7.0-2",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 614,
+        "fields": {
+            "name": "arpack++",
+            "version": "2.3-9",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 634,
+        "fields": {
+            "name": "asciidoc",
+            "version": "8.6.10-3",
+            "type": "text",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 637,
+        "fields": {
+            "name": "asciimathtml",
+            "version": "2.0.2-2",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 640,
+        "fields": {
+            "name": "asclock",
+            "version": "2.0.12-29",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 651,
+        "fields": {
+            "name": "asmail",
+            "version": "2.1-4",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 652,
+        "fields": {
+            "name": "asmix",
+            "version": "1.5-4.1",
+            "type": "x11",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 701,
+        "fields": {
+            "name": "aspic",
+            "version": "1.05-4",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 706,
+        "fields": {
+            "name": "assimp",
+            "version": "4.1.0~dfsg-5",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 707,
+        "fields": {
+            "name": "asterisk",
+            "version": "1:16.2.1~dfsg-1+deb10u2",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 708,
+        "fields": {
+            "name": "asterisk-core-sounds",
+            "version": "1.6.1-1",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 709,
+        "fields": {
+            "name": "asterisk-espeak",
+            "version": "5.0~1-3",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 710,
+        "fields": {
+            "name": "asterisk-flite",
+            "version": "3.0-3",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 711,
+        "fields": {
+            "name": "asterisk-moh-opsound",
+            "version": "2.03-1",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 713,
+        "fields": {
+            "name": "asterisk-prompt-de",
+            "version": "2.0-1.1",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 714,
+        "fields": {
+            "name": "asterisk-prompt-es-co",
+            "version": "0.20070403-2",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 715,
+        "fields": {
+            "name": "asterisk-prompt-fr-armelle",
+            "version": "20070613-2",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 716,
+        "fields": {
+            "name": "asterisk-prompt-fr-proformatique",
+            "version": "20070706-1.4-2",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 717,
+        "fields": {
+            "name": "asterisk-prompt-it",
+            "version": "1:1.4.22+mm20110907-3",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 742,
+        "fields": {
+            "name": "asymptote",
+            "version": "2.47-2",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 761,
+        "fields": {
+            "name": "atlc",
+            "version": "4.6.1-2",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 763,
+        "fields": {
+            "name": "atomicparsley",
+            "version": "0.9.6-2",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 775,
+        "fields": {
+            "name": "auctex",
+            "version": "11.91-2",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 782,
+        "fields": {
+            "name": "audioread",
+            "version": "2.1.5-1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 788,
+        "fields": {
+            "name": "aufs-tools",
+            "version": "1:4.14+20190211-1",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 795,
+        "fields": {
+            "name": "authres",
+            "version": "1.1.1-1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 798,
+        "fields": {
+            "name": "auto-complete-el",
+            "version": "1.5.1-0.1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 800,
+        "fields": {
+            "name": "auto-install-el",
+            "version": "1.58-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 801,
+        "fields": {
+            "name": "auto-multiple-choice",
+            "version": "1.4.0-1",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 803,
+        "fields": {
+            "name": "autoclass",
+            "version": "3.3.6.dfsg.1-1",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 821,
+        "fields": {
+            "name": "autojump",
+            "version": "22.5.1-1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 850,
+        "fields": {
+            "name": "avarice",
+            "version": "2.13+svn375-1",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 853,
+        "fields": {
+            "name": "aview",
+            "version": "1.3.0rc1-9",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 859,
+        "fields": {
+            "name": "avr-libc",
+            "version": "1:2.0.0+Atmel3.6.1-2",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 860,
+        "fields": {
+            "name": "avra",
+            "version": "1.3.0-3",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 861,
+        "fields": {
+            "name": "avrdude",
+            "version": "6.3-20171130+svn1429-2",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 864,
+        "fields": {
+            "name": "avrp",
+            "version": "1.0beta3-7",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 873,
+        "fields": {
+            "name": "awffull",
+            "version": "3.10.2-6",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 875,
+        "fields": {
+            "name": "awl",
+            "version": "0.60-1+deb10u1",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 878,
+        "fields": {
+            "name": "awstats",
+            "version": "7.6+dfsg-2",
+            "type": "web",
+            "dependency_software": [
+                356
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 879,
+        "fields": {
+            "name": "ax25-apps",
+            "version": "0.0.8-rc4-2",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 880,
+        "fields": {
+            "name": "ax25-tools",
+            "version": "0.0.10-rc4-3",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 881,
+        "fields": {
+            "name": "ax25mail-utils",
+            "version": "0.13-1",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 884,
+        "fields": {
+            "name": "axiom",
+            "version": "20170501-4",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 895,
+        "fields": {
+            "name": "aylet",
+            "version": "0.5-3",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 903,
+        "fields": {
+            "name": "backbone",
+            "version": "1.3.3~dfsg-5",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 904,
+        "fields": {
+            "name": "backbone-dirty.js",
+            "version": "1.1.2-3",
+            "type": "web",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 917,
+        "fields": {
+            "name": "bacula-doc",
+            "version": "9.4.2-2",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 929,
+        "fields": {
+            "name": "balsa",
+            "version": "2.5.6-2+deb10u1",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 939,
+        "fields": {
+            "name": "baobab",
+            "version": "3.30.0-2",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 945,
+        "fields": {
+            "name": "barcode",
+            "version": "0.99-3",
+            "type": "graphics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 958,
+        "fields": {
+            "name": "base-installer",
+            "version": "1.189",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 960,
+        "fields": {
+            "name": "basemap",
+            "version": "1.2.0+dfsg-1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 961,
+        "fields": {
+            "name": "basex",
+            "version": "9.0.1+ds-1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 963,
+        "fields": {
+            "name": "bash",
+            "version": "5.0-4",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 964,
+        "fields": {
+            "name": "bash-completion",
+            "version": "1:2.8-6",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 966,
+        "fields": {
+            "name": "basket",
+            "version": "2.11~beta+git20180715.058ce7a-1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 971,
+        "fields": {
+            "name": "batmon.app",
+            "version": "0.9-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 974,
+        "fields": {
+            "name": "baycomepp",
+            "version": "0.10-15",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 975,
+        "fields": {
+            "name": "baycomusb",
+            "version": "0.10-14",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 977,
+        "fields": {
+            "name": "bbdb",
+            "version": "2.36-4.1",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 979,
+        "fields": {
+            "name": "bbe",
+            "version": "0.2.2-3",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 980,
+        "fields": {
+            "name": "bbmail",
+            "version": "0.9.3-2",
+            "type": "mail",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 985,
+        "fields": {
+            "name": "bc",
+            "version": "1.07.1-2",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 992,
+        "fields": {
+            "name": "bchunk",
+            "version": "1.2.2-2",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1014,
+        "fields": {
+            "name": "beautifulsoup4",
+            "version": "4.7.1-1",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1015,
+        "fields": {
+            "name": "beav",
+            "version": "1:1.40-18",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1030,
+        "fields": {
+            "name": "ben",
+            "version": "0.8.2",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1053,
+        "fields": {
+            "name": "bhl",
+            "version": "1.7.3-3",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1055,
+        "fields": {
+            "name": "bibclean",
+            "version": "2.11.4.1-4",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1056,
+        "fields": {
+            "name": "bibcursed",
+            "version": "2.0.0-6.1",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1057,
+        "fields": {
+            "name": "biber",
+            "version": "2.12-2",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1058,
+        "fields": {
+            "name": "bible-kjv",
+            "version": "4.30",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1061,
+        "fields": {
+            "name": "bibletime",
+            "version": "2.11.2-11",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1063,
+        "fields": {
+            "name": "bibtex2html",
+            "version": "1.99-2",
+            "type": "tex",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1064,
+        "fields": {
+            "name": "bibtexconv",
+            "version": "0.8.20-1",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1066,
+        "fields": {
+            "name": "bibtool",
+            "version": "2.67+ds-5",
+            "type": "tex",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1094,
+        "fields": {
+            "name": "biniou",
+            "version": "1.0.12-2",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1095,
+        "fields": {
+            "name": "binkd",
+            "version": "1.1a-99-1",
+            "type": "comm",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1096,
+        "fields": {
+            "name": "bino",
+            "version": "1.6.6-3",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1153,
+        "fields": {
+            "name": "bitstream",
+            "version": "1.5-1",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1159,
+        "fields": {
+            "name": "bjsonrpc",
+            "version": "0.2.0-2",
+            "type": "python",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1177,
+        "fields": {
+            "name": "bless",
+            "version": "0.6.0-5.1",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1184,
+        "fields": {
+            "name": "bliss",
+            "version": "0.73-2",
+            "type": "math",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1216,
+        "fields": {
+            "name": "bmagic",
+            "version": "3.7.0-3",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1229,
+        "fields": {
+            "name": "bochs",
+            "version": "2.6.9+dfsg-3",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1269,
+        "fields": {
+            "name": "bottlerocket",
+            "version": "0.05b3-17",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1291,
+        "fields": {
+            "name": "brag",
+            "version": "1.4.1-2.1",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1295,
+        "fields": {
+            "name": "brandy",
+            "version": "1.20.1-1",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1296,
+        "fields": {
+            "name": "brasero",
+            "version": "3.12.2-5",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1354,
+        "fields": {
+            "name": "bterm-unifont",
+            "version": "1.6",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1367,
+        "fields": {
+            "name": "bucardo",
+            "version": "5.5.0-1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1381,
+        "fields": {
+            "name": "buildapp",
+            "version": "1.5.6-2",
+            "type": "lisp",
+            "dependency_software": [
+                1834
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1394,
+        "fields": {
+            "name": "bundler",
+            "version": "1.17.3-3+deb10u1",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1405,
+        "fields": {
+            "name": "bvi",
+            "version": "1.4.0-1",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1407,
+        "fields": {
+            "name": "bwbasic",
+            "version": "2.20pl2-11",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1422,
+        "fields": {
+            "name": "bzr",
+            "version": "2.7.0+bzr6622-15",
+            "type": "vcs",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1423,
+        "fields": {
+            "name": "bzr-builddeb",
+            "version": "2.8.11",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1424,
+        "fields": {
+            "name": "bzr-email",
+            "version": "0.0.1~bzr58-7",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1425,
+        "fields": {
+            "name": "bzr-explorer",
+            "version": "1.3.0-2",
+            "type": "vcs",
+            "dependency_software": [
+                1422
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1428,
+        "fields": {
+            "name": "bzr-loom",
+            "version": "2.2.0-6",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1429,
+        "fields": {
+            "name": "bzr-search",
+            "version": "1.7.0~bzr94-5",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1430,
+        "fields": {
+            "name": "bzr-stats",
+            "version": "0.1.0+bzr54-5",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1431,
+        "fields": {
+            "name": "bzr-upload",
+            "version": "1.1.0-8",
+            "type": "vcs",
+            "dependency_software": [
+                1422,
+                1422
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1432,
+        "fields": {
+            "name": "bzr-xmloutput",
+            "version": "0.8.8+bzr162-6",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1433,
+        "fields": {
+            "name": "bzrtools",
+            "version": "2.6.0-4",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1442,
+        "fields": {
+            "name": "c2050",
+            "version": "0.3b-8",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1443,
+        "fields": {
+            "name": "c2esp",
+            "version": "27-4",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1444,
+        "fields": {
+            "name": "c2hs",
+            "version": "0.28.5-2",
+            "type": "haskell",
+            "dependency_software": [
+                228,
+                5135,
+                7065
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1464,
+        "fields": {
+            "name": "cairo-5c",
+            "version": "1.17",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1467,
+        "fields": {
+            "name": "cairo-ocaml",
+            "version": "1:1.2.0-6",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1469,
+        "fields": {
+            "name": "cairodevice",
+            "version": "2.25-2",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1494,
+        "fields": {
+            "name": "calendar",
+            "version": "2.04-1",
+            "type": "libdevel",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1499,
+        "fields": {
+            "name": "calligra",
+            "version": "1:3.1.0+dfsg-5",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1501,
+        "fields": {
+            "name": "camera.app",
+            "version": "0.8.0-11",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1504,
+        "fields": {
+            "name": "caml2html",
+            "version": "1.4.3-2",
+            "type": "ocaml",
+            "dependency_software": [
+                2833,
+                1510
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1506,
+        "fields": {
+            "name": "camlidl",
+            "version": "1.05-15.1",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1507,
+        "fields": {
+            "name": "camlidl-doc",
+            "version": "1.04-4",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1509,
+        "fields": {
+            "name": "camljava",
+            "version": "0.3-2",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1510,
+        "fields": {
+            "name": "camlmix",
+            "version": "1.3.1-3",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1512,
+        "fields": {
+            "name": "camlp5",
+            "version": "7.01-1",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1514,
+        "fields": {
+            "name": "camltemplate",
+            "version": "1.0.2-2",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1517,
+        "fields": {
+            "name": "camomile",
+            "version": "0.8.5-1",
+            "type": "libdevel",
+            "dependency_software": [
+                2833,
+                2294
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1525,
+        "fields": {
+            "name": "canlock",
+            "version": "3.1.0-1",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1532,
+        "fields": {
+            "name": "capistrano",
+            "version": "3.11.0-3+deb10u1",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1538,
+        "fields": {
+            "name": "car",
+            "version": "3.0-2-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1544,
+        "fields": {
+            "name": "cargo",
+            "version": "0.35.0-2",
+            "type": "rust",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1545,
+        "fields": {
+            "name": "cargo",
+            "version": "0.43.1-3~deb10u1",
+            "type": "rust",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1546,
+        "fields": {
+            "name": "caribou",
+            "version": "0.4.21-7",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1550,
+        "fields": {
+            "name": "carton",
+            "version": "1.0.34-2",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1596,
+        "fields": {
+            "name": "ccd2iso",
+            "version": "0.3-7",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1629,
+        "fields": {
+            "name": "cdebconf-terminal",
+            "version": "0.36",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1641,
+        "fields": {
+            "name": "cdrdao",
+            "version": "1:1.2.4-1",
+            "type": "otherosfs",
+            "dependency_software": [
+                364
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1642,
+        "fields": {
+            "name": "cdrkit",
+            "version": "9:1.1.11-3",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1643,
+        "fields": {
+            "name": "cdrom-checker",
+            "version": "1.42",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1644,
+        "fields": {
+            "name": "cdrom-detect",
+            "version": "1.83",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1645,
+        "fields": {
+            "name": "cdrom-retriever",
+            "version": "1.45",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1647,
+        "fields": {
+            "name": "cdw",
+            "version": "0.8.1-1",
+            "type": "otherosfs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1657,
+        "fields": {
+            "name": "cellwriter",
+            "version": "1.3.6-1",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1661,
+        "fields": {
+            "name": "cenon.app",
+            "version": "4.0.6+ds1-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1681,
+        "fields": {
+            "name": "cfi",
+            "version": "3.0-10",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1686,
+        "fields": {
+            "name": "cfourcc",
+            "version": "0.1.2-9",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1720,
+        "fields": {
+            "name": "charmap.app",
+            "version": "0.3~rc1-3",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1731,
+        "fields": {
+            "name": "check-postgres",
+            "version": "2.24.0-3",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1739,
+        "fields": {
+            "name": "cheese",
+            "version": "3.31.90-1",
+            "type": "gnome",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1742,
+        "fields": {
+            "name": "chef",
+            "version": "13.8.7-4",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1757,
+        "fields": {
+            "name": "chiark-tcl",
+            "version": "1.3.2",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1759,
+        "fields": {
+            "name": "chicken",
+            "version": "4.13.0-1",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1763,
+        "fields": {
+            "name": "chirp",
+            "version": "1:20190104-1",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1773,
+        "fields": {
+            "name": "choose-mirror",
+            "version": "2.99+deb10u3",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1775,
+        "fields": {
+            "name": "choqok",
+            "version": "1.6-2.1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1793,
+        "fields": {
+            "name": "cil",
+            "version": "0.07.00-12",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1832,
+        "fields": {
+            "name": "cl-alexandria",
+            "version": "20181203.gitd44f543-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1834,
+        "fields": {
+            "name": "cl-asdf",
+            "version": "2:3.3.2-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1838,
+        "fields": {
+            "name": "cl-babel",
+            "version": "20171213.git546fa82-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1839,
+        "fields": {
+            "name": "cl-base64",
+            "version": "3.3.4-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1842,
+        "fields": {
+            "name": "cl-closer-mop",
+            "version": "2:20190127.git22858cb-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1844,
+        "fields": {
+            "name": "cl-clx-sbcl",
+            "version": "0.7.4.20160323-1.1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1847,
+        "fields": {
+            "name": "cl-contextl",
+            "version": "1:20160313.git5894fba-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1858,
+        "fields": {
+            "name": "cl-ftp",
+            "version": "1.6.0-1",
+            "type": "lisp",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1925,
+        "fields": {
+            "name": "clasp",
+            "version": "3.3.4-2",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1947,
+        "fields": {
+            "name": "cli-common",
+            "version": "0.10",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1949,
+        "fields": {
+            "name": "clif",
+            "version": "0.93-9.1",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1956,
+        "fields": {
+            "name": "clips",
+            "version": "6.24-3.2",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1969,
+        "fields": {
+            "name": "clock-setup",
+            "version": "0.141",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 1999,
+        "fields": {
+            "name": "cluster",
+            "version": "2.0.7-1-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2009,
+        "fields": {
+            "name": "cm-super",
+            "version": "0.3.4-14",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2028,
+        "fields": {
+            "name": "cmph",
+            "version": "2.0.2-1",
+            "type": "interpreters",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2042,
+        "fields": {
+            "name": "coco-doc",
+            "version": "20060919-2",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2058,
+        "fields": {
+            "name": "coderay",
+            "version": "1.1.2-2",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2061,
+        "fields": {
+            "name": "codetools",
+            "version": "0.2-16-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2062,
+        "fields": {
+            "name": "codeville",
+            "version": "0.8.0-2.1",
+            "type": "vcs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2113,
+        "fields": {
+            "name": "comixcursors",
+            "version": "0.9.1-1",
+            "type": "oldlibs",
+            "dependency_software": [
+                985
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2144,
+        "fields": {
+            "name": "compass-fancy-buttons-plugin",
+            "version": "1.1.1~20120313-6",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2145,
+        "fields": {
+            "name": "compass-h5bp-plugin",
+            "version": "1.0.0-4",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2146,
+        "fields": {
+            "name": "compass-layoutgala-plugin",
+            "version": "0.2.1-1",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2150,
+        "fields": {
+            "name": "compass-slickmap-plugin",
+            "version": "0.5.1.1-5",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2151,
+        "fields": {
+            "name": "compass-susy-plugin",
+            "version": "2.2.12-1",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2153,
+        "fields": {
+            "name": "compass-yui-plugin",
+            "version": "0~20100724-4",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2185,
+        "fields": {
+            "name": "conky",
+            "version": "1.10.8-1",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2196,
+        "fields": {
+            "name": "conque",
+            "version": "2.3-1",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2247,
+        "fields": {
+            "name": "cothreads",
+            "version": "0.10-4",
+            "type": "libdevel",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2257,
+        "fields": {
+            "name": "covered",
+            "version": "0.7.10-3",
+            "type": "electronics",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2265,
+        "fields": {
+            "name": "cpan-listchanges",
+            "version": "0.08-1",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2266,
+        "fields": {
+            "name": "cpanminus",
+            "version": "1.7044-1",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2292,
+        "fields": {
+            "name": "cpphs",
+            "version": "1.20.8-3",
+            "type": "haskell",
+            "dependency_software": [
+                5135
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2294,
+        "fields": {
+            "name": "cppo",
+            "version": "1.6.4-3",
+            "type": "ocaml",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2312,
+        "fields": {
+            "name": "cqrlib",
+            "version": "1.1.4-1",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2313,
+        "fields": {
+            "name": "cqrlog",
+            "version": "2.3.0-2",
+            "type": "hamradio",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2326,
+        "fields": {
+            "name": "cream",
+            "version": "0.43-3",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2360,
+        "fields": {
+            "name": "crtmpserver",
+            "version": "1.0~dfsg-5.5",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2366,
+        "fields": {
+            "name": "crypt++el",
+            "version": "2.94-3",
+            "type": "editors",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2373,
+        "fields": {
+            "name": "cryptokit",
+            "version": "1.11-1",
+            "type": "libdevel",
+            "dependency_software": [
+                2833
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2378,
+        "fields": {
+            "name": "csh",
+            "version": "20110502-4+deb10u1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2384,
+        "fields": {
+            "name": "csound-manual",
+            "version": "1:6.12.0~dfsg-2",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2405,
+        "fields": {
+            "name": "ctemplate",
+            "version": "2.3-3",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2422,
+        "fields": {
+            "name": "cucumber",
+            "version": "2.4.0-3",
+            "type": "ruby",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2426,
+        "fields": {
+            "name": "culmus",
+            "version": "0.132-1",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2427,
+        "fields": {
+            "name": "culmus-fancy",
+            "version": "0.0.20051018-4",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2435,
+        "fields": {
+            "name": "cups-pdf",
+            "version": "3.0.1-5",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2487,
+        "fields": {
+            "name": "cynthiune.app",
+            "version": "1.0.0-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2549,
+        "fields": {
+            "name": "dash",
+            "version": "0.5.10.2-5",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2566,
+        "fields": {
+            "name": "date",
+            "version": "1.2.38-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2580,
+        "fields": {
+            "name": "db-defaults",
+            "version": "5.3.1+nmu1",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2581,
+        "fields": {
+            "name": "db1-compat",
+            "version": "2.1.3-20",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2592,
+        "fields": {
+            "name": "dbi",
+            "version": "1.0.0-2",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2593,
+        "fields": {
+            "name": "dbix-easy-perl",
+            "version": "0.21-1",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2603,
+        "fields": {
+            "name": "dbus-sharp",
+            "version": "0.8.1-2",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2604,
+        "fields": {
+            "name": "dbus-sharp-glib",
+            "version": "0.6.0-1",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2655,
+        "fields": {
+            "name": "debconf-kde",
+            "version": "1.0.3-1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2668,
+        "fields": {
+            "name": "debian-edu",
+            "version": "2.10.47",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2672,
+        "fields": {
+            "name": "debian-edu-doc",
+            "version": "2.10.19~deb10u1",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2676,
+        "fields": {
+            "name": "debian-faq",
+            "version": "9.0",
+            "type": "doc",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2686,
+        "fields": {
+            "name": "debian-installer-utils",
+            "version": "1.132+deb10u1",
+            "type": "debian-installer",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2720,
+        "fields": {
+            "name": "debpear",
+            "version": "0.5",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2791,
+        "fields": {
+            "name": "devede",
+            "version": "4.8.0-1",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2818,
+        "fields": {
+            "name": "dh-cargo",
+            "version": "17",
+            "type": "rust",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2832,
+        "fields": {
+            "name": "dh-make-perl",
+            "version": "0.105",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2833,
+        "fields": {
+            "name": "dh-ocaml",
+            "version": "1.1.0",
+            "type": "ocaml",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 2873,
+        "fields": {
+            "name": "diaspora-installer",
+            "version": "0.7.6.1+debian1+deb10u1",
+            "type": "contrib/net",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3068,
+        "fields": {
+            "name": "dkg-handwriting",
+            "version": "0.16-2",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3072,
+        "fields": {
+            "name": "dkms",
+            "version": "2.6.1-4",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3163,
+        "fields": {
+            "name": "doctrine",
+            "version": "2.6.3+dfsg-1",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3196,
+        "fields": {
+            "name": "dov4l",
+            "version": "0.9+repack-1",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3265,
+        "fields": {
+            "name": "dssi",
+            "version": "1.1.1~dfsg0-1",
+            "type": "libdevel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3321,
+        "fields": {
+            "name": "dvblast",
+            "version": "3.4-1",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3322,
+        "fields": {
+            "name": "dvbsnoop",
+            "version": "1.4.50-5",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3323,
+        "fields": {
+            "name": "dvbstream",
+            "version": "0.6+cvs20090621-2",
+            "type": "video",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3432,
+        "fields": {
+            "name": "edenmath.app",
+            "version": "1.1.1a-8",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3450,
+        "fields": {
+            "name": "eekboek",
+            "version": "2.03.01-1",
+            "type": "perl",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3453,
+        "fields": {
+            "name": "effects",
+            "version": "4.1.0-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3646,
+        "fields": {
+            "name": "eqonomize",
+            "version": "1.3.1-1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3720,
+        "fields": {
+            "name": "ess",
+            "version": "18.10.2-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3858,
+        "fields": {
+            "name": "fasianoptions",
+            "version": "3042.82-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3860,
+        "fields": {
+            "name": "fassets",
+            "version": "3042.84-1",
+            "type": "gnu-r",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 3950,
+        "fields": {
+            "name": "fdclone",
+            "version": "3.01h-1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4064,
+        "fields": {
+            "name": "filelight",
+            "version": "4:18.04.1-1.1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4088,
+        "fields": {
+            "name": "firebird3.0",
+            "version": "3.0.5.33100.ds4-2",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4094,
+        "fields": {
+            "name": "firmware-free",
+            "version": "3.4",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4098,
+        "fields": {
+            "name": "fish",
+            "version": "3.0.2-2+deb10u1",
+            "type": "shells",
+            "dependency_software": [
+                985
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4110,
+        "fields": {
+            "name": "fizsh",
+            "version": "1.0.9-1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4118,
+        "fields": {
+            "name": "flamerobin",
+            "version": "0.9.3~+20160512.c75f8618-2",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4251,
+        "fields": {
+            "name": "fontconfig",
+            "version": "2.13.1-2",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4253,
+        "fields": {
+            "name": "fontforge",
+            "version": "1:20170731~dfsg-1",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4254,
+        "fields": {
+            "name": "fontforge-extras",
+            "version": "0.3-4",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4265,
+        "fields": {
+            "name": "fonts-anonymous-pro",
+            "version": "1.002-1",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4266,
+        "fields": {
+            "name": "fonts-aoyagi-kouzan-t",
+            "version": "20160404-4",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4267,
+        "fields": {
+            "name": "fonts-aoyagi-soseki",
+            "version": "20070207-16",
+            "type": "fonts",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4360,
+        "fields": {
+            "name": "fonts-indic",
+            "version": "2:1.3",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4552,
+        "fields": {
+            "name": "foo2zjs",
+            "version": "20171202dfsg0-2",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4625,
+        "fields": {
+            "name": "frameworkintegration",
+            "version": "5.54.0-1",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4627,
+        "fields": {
+            "name": "fraqtive",
+            "version": "0.4.8-10",
+            "type": "kde",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4749,
+        "fields": {
+            "name": "ftp.app",
+            "version": "0.6-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4913,
+        "fields": {
+            "name": "garcon",
+            "version": "0.6.2-1",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 4989,
+        "fields": {
+            "name": "gdata-sharp",
+            "version": "2.2.0.0-2",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5060,
+        "fields": {
+            "name": "geogebra",
+            "version": "4.0.34.0+dfsg1-7",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5135,
+        "fields": {
+            "name": "ghc",
+            "version": "8.4.4+dfsg1-3",
+            "type": "haskell",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5136,
+        "fields": {
+            "name": "ghc-testsuite",
+            "version": "8.4.4-1",
+            "type": "haskell",
+            "dependency_software": [
+                5135,
+                5135
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5160,
+        "fields": {
+            "name": "gigolo",
+            "version": "0.4.2-3",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5175,
+        "fields": {
+            "name": "gio-sharp",
+            "version": "2.22.3-3",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5235,
+        "fields": {
+            "name": "gkeyfile-sharp",
+            "version": "0.1-5",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5446,
+        "fields": {
+            "name": "gnome-doc-utils",
+            "version": "0.20.10-5",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5584,
+        "fields": {
+            "name": "gnumach",
+            "version": "2:1.8+git20190109-1",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5594,
+        "fields": {
+            "name": "gnupg2",
+            "version": "2.2.12-1",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5595,
+        "fields": {
+            "name": "gnupg2",
+            "version": "2.2.12-1+deb10u1",
+            "type": "oldlibs",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 5605,
+        "fields": {
+            "name": "gnustep-back",
+            "version": "0.27.0-2",
+            "type": "gnustep",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6922,
+        "fields": {
+            "name": "gtk-sharp-beans",
+            "version": "2.14.1-4",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6923,
+        "fields": {
+            "name": "gtk-sharp2",
+            "version": "2.12.40-2",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6933,
+        "fields": {
+            "name": "gtk2-engines-xfce",
+            "version": "3.2.0-4",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6934,
+        "fields": {
+            "name": "gtk2hs-buildtools",
+            "version": "0.13.4.0-2",
+            "type": "haskell",
+            "dependency_software": [
+                228,
+                5135,
+                7065
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 6980,
+        "fields": {
+            "name": "gudev-sharp-1.0",
+            "version": "0.1-4",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7002,
+        "fields": {
+            "name": "gunicorn",
+            "version": "19.9.0-1",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7004,
+        "fields": {
+            "name": "gup",
+            "version": "0.5.15",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7065,
+        "fields": {
+            "name": "happy",
+            "version": "1.19.9-6",
+            "type": "haskell",
+            "dependency_software": [
+                5135,
+                7065
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7090,
+        "fields": {
+            "name": "haskell-acid-state",
+            "version": "0.14.3-3",
+            "type": "haskell",
+            "dependency_software": [
+                5135
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 7091,
+        "fields": {
+            "name": "haskell-active",
+            "version": "0.2.0.13-6",
+            "type": "haskell",
+            "dependency_software": [
+                5135
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8269,
+        "fields": {
+            "name": "hunspell-fr",
+            "version": "1:6.3-2",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8286,
+        "fields": {
+            "name": "hyena",
+            "version": "0.5-4",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8527,
+        "fields": {
+            "name": "inn",
+            "version": "1:1.7.2q-46",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8528,
+        "fields": {
+            "name": "inn2",
+            "version": "2.6.3-1+deb10u2",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8673,
+        "fields": {
+            "name": "islamic-menus",
+            "version": "1.0.5-2",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 8824,
+        "fields": {
+            "name": "javascript-common",
+            "version": "11",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9249,
+        "fields": {
+            "name": "kdrill",
+            "version": "6.5deb2-12",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9297,
+        "fields": {
+            "name": "kfreebsd-10",
+            "version": "10.3~svn300087-5",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9420,
+        "fields": {
+            "name": "knews",
+            "version": "1.0b.1-32",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9511,
+        "fields": {
+            "name": "ksh",
+            "version": "93u+20120801-3.4+deb10u1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9709,
+        "fields": {
+            "name": "leafnode",
+            "version": "1.11.11-1",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9740,
+        "fields": {
+            "name": "leveldb",
+            "version": "1.20-2.1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9851,
+        "fields": {
+            "name": "libapache-mod-auth-kerb",
+            "version": "5.4-2.4~deb10u1",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9852,
+        "fields": {
+            "name": "libapache-mod-auth-radius",
+            "version": "1.5.8-1.3",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9853,
+        "fields": {
+            "name": "libapache-mod-encoding",
+            "version": "0.0.20021209-11",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9854,
+        "fields": {
+            "name": "libapache-mod-evasive",
+            "version": "1.10.1-3",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9855,
+        "fields": {
+            "name": "libapache-mod-jk",
+            "version": "1:1.2.46-1+deb10u1",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9856,
+        "fields": {
+            "name": "libapache-mod-log-sql",
+            "version": "1.100-16.3",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9857,
+        "fields": {
+            "name": "libapache-mod-musicindex",
+            "version": "1.4.1-3",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9858,
+        "fields": {
+            "name": "libapache-mod-removeip",
+            "version": "1.0b-5.2",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 9871,
+        "fields": {
+            "name": "libapache2-mod-auth-cas",
+            "version": "1.2-1",
+            "type": "httpd",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12005,
+        "fields": {
+            "name": "libjs-angular-file-upload",
+            "version": "12.0.4+dfsg1-2",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12006,
+        "fields": {
+            "name": "libjs-angular-gettext",
+            "version": "2.3.8-2",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12007,
+        "fields": {
+            "name": "libjs-angular-schema-form",
+            "version": "0.8.13-1",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12008,
+        "fields": {
+            "name": "libjs-angularjs-smart-table",
+            "version": "1.4.13-1",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12010,
+        "fields": {
+            "name": "libjs-autonumeric",
+            "version": "1.9.12-1",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12011,
+        "fields": {
+            "name": "libjs-backbone-deep-model",
+            "version": "0.10.4-3",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12012,
+        "fields": {
+            "name": "libjs-backbone.stickit",
+            "version": "0.7.0-2",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12014,
+        "fields": {
+            "name": "libjs-bootswatch",
+            "version": "3.3.7+dfsg2-1",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12015,
+        "fields": {
+            "name": "libjs-chosen",
+            "version": "1.8.7+dfsg-1",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12016,
+        "fields": {
+            "name": "libjs-cocktail",
+            "version": "0.5.7-3",
+            "type": "javascript",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 12350,
+        "fields": {
+            "name": "libmarkdown-php",
+            "version": "1.0.2-2",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13265,
+        "fields": {
+            "name": "libphp-adodb",
+            "version": "5.20.14-1",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13266,
+        "fields": {
+            "name": "libphp-jabber",
+            "version": "0.4.3-5",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13267,
+        "fields": {
+            "name": "libphp-jpgraph",
+            "version": "1.5.2-13",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13268,
+        "fields": {
+            "name": "libphp-phpmailer",
+            "version": "6.0.6-0.1",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13270,
+        "fields": {
+            "name": "libphp-snoopy",
+            "version": "2.0.0-2",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13271,
+        "fields": {
+            "name": "libphp-swiftmailer",
+            "version": "5.4.2-1.1",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 13552,
+        "fields": {
+            "name": "libreoffice",
+            "version": "1:6.1.5-3+deb10u6",
+            "type": "metapackages",
+            "dependency_software": [
+                985,
+                4251
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14676,
+        "fields": {
+            "name": "libxfce4ui",
+            "version": "4.12.1-3",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14677,
+        "fields": {
+            "name": "libxfce4util",
+            "version": "4.12.1-3",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14917,
+        "fields": {
+            "name": "linux",
+            "version": "4.19.16-1",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14918,
+        "fields": {
+            "name": "linux",
+            "version": "4.19.20-1",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14919,
+        "fields": {
+            "name": "linux",
+            "version": "4.19.98-1",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14920,
+        "fields": {
+            "name": "linux",
+            "version": "4.19.160-2",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14921,
+        "fields": {
+            "name": "linux",
+            "version": "4.19.171-2",
+            "type": "kernel",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 14923,
+        "fields": {
+            "name": "linux-base",
+            "version": "4.6",
+            "type": "kernel",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15260,
+        "fields": {
+            "name": "lxde-metapackages",
+            "version": "10",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15472,
+        "fields": {
+            "name": "matchbox",
+            "version": "1:6",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15473,
+        "fields": {
+            "name": "matchbox-common",
+            "version": "0.9.1-7",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15474,
+        "fields": {
+            "name": "matchbox-desktop",
+            "version": "2.0-6",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15475,
+        "fields": {
+            "name": "matchbox-keyboard",
+            "version": "0.1+svn20080916-12",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15476,
+        "fields": {
+            "name": "matchbox-panel",
+            "version": "0.9.3-10",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15477,
+        "fields": {
+            "name": "matchbox-panel-manager",
+            "version": "0.1-8",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15478,
+        "fields": {
+            "name": "matchbox-themes-extra",
+            "version": "0.3-4",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15479,
+        "fields": {
+            "name": "matchbox-window-manager",
+            "version": "1.2-osso21-4",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15622,
+        "fields": {
+            "name": "mdbtools",
+            "version": "0.7.1-6",
+            "type": "database",
+            "dependency_software": [
+                964
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15684,
+        "fields": {
+            "name": "menu-l10n",
+            "version": "0.20120730",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15713,
+        "fields": {
+            "name": "meta-unison",
+            "version": "2.48+2",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15910,
+        "fields": {
+            "name": "mksh",
+            "version": "57-1",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 15968,
+        "fields": {
+            "name": "mod-mono",
+            "version": "3.8-3",
+            "type": "cli-mono",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16234,
+        "fields": {
+            "name": "mupen64plus",
+            "version": "2.5+4",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16294,
+        "fields": {
+            "name": "mydumper",
+            "version": "0.9.5-1+deb10u1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16322,
+        "fields": {
+            "name": "mysqltcl",
+            "version": "3.052-3",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16323,
+        "fields": {
+            "name": "mysqltuner",
+            "version": "1.7.13-1",
+            "type": "database",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16591,
+        "fields": {
+            "name": "nglister",
+            "version": "1.0.2",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 16643,
+        "fields": {
+            "name": "nn",
+            "version": "6.7.3-10",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18020,
+        "fields": {
+            "name": "nusoap",
+            "version": "0.9.5-3",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18021,
+        "fields": {
+            "name": "nut",
+            "version": "2.7.4-8",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18437,
+        "fields": {
+            "name": "openocd",
+            "version": "0.10.0-5",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18501,
+        "fields": {
+            "name": "openwince-include",
+            "version": "0.3.2-4",
+            "type": "embedded",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18502,
+        "fields": {
+            "name": "openwince-jtag",
+            "version": "0.5.1-7",
+            "type": "embedded",
+            "dependency_software": [
+                18501,
+                18501
+            ]
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18521,
+        "fields": {
+            "name": "orage",
+            "version": "4.12.1-6",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18637,
+        "fields": {
+            "name": "packaging-dev",
+            "version": "0.8",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18687,
+        "fields": {
+            "name": "pan",
+            "version": "0.145-1",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 18735,
+        "fields": {
+            "name": "parole",
+            "version": "1.0.1-1",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19137,
+        "fields": {
+            "name": "php-auth-sasl",
+            "version": "1.0.6-3",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19139,
+        "fields": {
+            "name": "php-cache-lite",
+            "version": "1.8.2-1",
+            "type": "php",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19614,
+        "fields": {
+            "name": "plexus-i18n",
+            "version": "1.0-beta-10-5",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19754,
+        "fields": {
+            "name": "posh",
+            "version": "0.13.2",
+            "type": "shells",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 19811,
+        "fields": {
+            "name": "powerpc-utils",
+            "version": "1.3.2-1.1",
+            "type": "metapackages",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 20210,
+        "fields": {
+            "name": "pycode-browser",
+            "version": "1:1.02+git20181006-3",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 23979,
+        "fields": {
+            "name": "ruby-rails-i18n",
+            "version": "5.1.2-2",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 24726,
+        "fields": {
+            "name": "rustc",
+            "version": "1.34.2+dfsg1-1",
+            "type": "rust",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 24727,
+        "fields": {
+            "name": "rustc",
+            "version": "1.41.1+dfsg1-1~deb10u1",
+            "type": "rust",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 24920,
+        "fields": {
+            "name": "scratch",
+            "version": "1.4.0.6~dfsg1-6",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 25222,
+        "fields": {
+            "name": "sinntp",
+            "version": "1.5-1.1",
+            "type": "news",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 25685,
+        "fields": {
+            "name": "squid-langpack",
+            "version": "20190110-1",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26086,
+        "fields": {
+            "name": "tagainijisho",
+            "version": "1.0.2-2",
+            "type": "education",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26216,
+        "fields": {
+            "name": "tegaki-zinnia-japanese",
+            "version": "0.3-1",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26217,
+        "fields": {
+            "name": "tegaki-zinnia-simplified-chinese",
+            "version": "0.3-1",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26345,
+        "fields": {
+            "name": "thunar-vcs-plugin",
+            "version": "0.2.0-1",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26664,
+        "fields": {
+            "name": "tryton-modules-account-de-skr03",
+            "version": "5.0.0-2",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26799,
+        "fields": {
+            "name": "tumbler",
+            "version": "0.2.3-1",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 26883,
+        "fields": {
+            "name": "tzdata",
+            "version": "2021a-0+deb10u1",
+            "type": "localization",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 27896,
+        "fields": {
+            "name": "xfce4",
+            "version": "4.12.5",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 27897,
+        "fields": {
+            "name": "xfce4-appfinder",
+            "version": "4.12.0-2",
+            "type": "xfce",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28371,
+        "fields": {
+            "name": "zc.buildout",
+            "version": "1.7.1-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28374,
+        "fields": {
+            "name": "zdaemon",
+            "version": "2.0.7-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28438,
+        "fields": {
+            "name": "zope-common",
+            "version": "0.5.54",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28439,
+        "fields": {
+            "name": "zope-debhelper",
+            "version": "0.3.16",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28445,
+        "fields": {
+            "name": "zope.contenttype",
+            "version": "4.1.0-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28446,
+        "fields": {
+            "name": "zope.copy",
+            "version": "3.5.0-6",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28451,
+        "fields": {
+            "name": "zope.fixers",
+            "version": "1.0-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28453,
+        "fields": {
+            "name": "zope.i18n",
+            "version": "4.1.0-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28461,
+        "fields": {
+            "name": "zope.sendmail",
+            "version": "3.7.4-2",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28465,
+        "fields": {
+            "name": "zope.testrunner",
+            "version": "4.4.9-1",
+            "type": "zope",
+            "dependency_software": []
+        }
+    },
+    {
+        "model": "software.software",
+        "pk": 28466,
+        "fields": {
+            "name": "zope.traversing",
+            "version": "3.13.2-2",
+            "type": "zope",
+            "dependency_software": []
+        }
+    }
+]
